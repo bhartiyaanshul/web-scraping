@@ -18,7 +18,7 @@ element = browser.find_element(By.CSS_SELECTOR,'input[id="ipt1"]')
 element.send_keys('Anshul')
 
 # finding the element of the button
-button = browser.find_element(By.CSS_SELECTOR,'button[id="b1"]')
+button = browser.find_element(By.XPATH,'//button[@id="b1"]')
 
 # click is used for clicking the button
 button.click()
