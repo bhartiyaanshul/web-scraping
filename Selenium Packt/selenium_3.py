@@ -5,10 +5,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-# using chrome is a web browser
+# using chrome as a web browser
 browser = webdriver.Chrome()
 
-# getting the a webpage for the automation
+# declare the website to be automated
 browser.get('http://techstepacademy.com/training-ground')
 
 # finding element by css selector
@@ -20,7 +20,7 @@ element.send_keys('Anshul')
 # finding the element of the button
 button = browser.find_element(By.XPATH,'//button[@id="b1"]')
 
-# click is used for clicking the button
+# click functon is used for clicking the button
 button.click()
 
 
